@@ -45,6 +45,6 @@ locals {
     Project     = "AWSSkillsAcceleratorContainers"
     ManagedBy   = "<FILL_EMAIL_ADDRESS>"
     Environment = "dev"
-    OwnedBy     = "siba"
+    OwnedBy     = "<FILL_IN_YOUR_NAME>"
   }
 }

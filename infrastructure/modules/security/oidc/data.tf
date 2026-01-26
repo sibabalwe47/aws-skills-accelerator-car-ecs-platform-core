@@ -1,0 +1,6 @@
+
+/*
+ * AWS Partition
+ */
+
+data "aws_partition" "current" {}
