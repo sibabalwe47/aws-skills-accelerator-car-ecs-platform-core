@@ -6,6 +6,12 @@ locals {
   aws_region = data.aws_region.current.region
 
   /* 
+   * Github Actions OIDC Configuration
+   */
+  thumbprint_list         = "6938fd4d98bab03faadb97b34396831e3780aea1"
+  github_action_trust_url = "https://token.actions.githubusercontent.com"
+
+  /* 
    *  AWS Skills accelerator conventions
    */
   cohort_type  = "asac"

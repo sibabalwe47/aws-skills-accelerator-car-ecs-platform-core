@@ -4,7 +4,6 @@ variable "iam_github_user_content_token_actions_url" {}
 
 variable "github_iam_role_name" {}
 
-variable "github_iam_role_policy" {}
 
 variable "github_iam_role_policy_permissions" {}
 

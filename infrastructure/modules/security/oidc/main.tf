@@ -1,6 +1,6 @@
 resource "aws_iam_openid_connect_provider" "github_oidc_provider" {
   client_id_list  = ["sts.${data.aws_partition.current.dns_suffix}"]
-  thumbprint_list = [var.iam_openid_connect_thumbprint_list]
+  thumbprint_list = var.iam_openid_connect_thumbprint_list
   url             = var.iam_github_user_content_token_actions_url
 }
 
